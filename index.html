@@ -48,6 +48,33 @@
   color: white;
 }
         
+ 
+        
+/* Alert bar in the top of the home page */
+.alert {
+  padding: 15px;
+  background-color: #2196F3;
+  color: white;
+  margin-bottom: 0px;
+}
+        
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 50px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}        
+        
     </style>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -73,8 +100,11 @@
  <!--
 Welcome Slider
 ==================================== -->
-
-<section class="hero-area overlay" style="background-image: url('images/banner/pop-zebra-355178-unsplash.jpg'); padding-top: 200px;">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Info!</strong> "ConstMan t:mi" it has become now "Jata Rakennus OY".
+</div>
+<section class="hero-area overlay" style="background-image: url('images/banner/pop-zebra-355178-unsplash.jpg'); height: max-content; padding-bottom: 100px;">
 	<!-- <video autoplay muted loop class="hero-video">
 		<source src="images/banner/hero-video.mp4" type="video/mp4">
 	</video> -->
@@ -278,7 +308,7 @@ Welcome Slider
 								<div class="media-body">
 									<h4 class="media-heading">Competitive Pricing</h4>
 									<p>Our pricing are based on market needs, growth and future success of the company. At the end, why not to support a company who thinks about its future of his community.
-                                    We are all about new inventions on "A class energy" buildings, quality & affordable pricings. </p>
+                                    We are all about new inventions on "A class energy" buildings, better quality & affordable pricings. </p>
 								</div>
 							</div>
 						</div>
@@ -291,7 +321,7 @@ Welcome Slider
 									<h4 class="media-heading">Special Guarantees</h4>
 									<p>Guarantees is what sells the most. Everything depends on it. An extended guarantee period, it means that company has confidence in itself. Our guarantees are longest in period & most transparent in construction industry.
                                     Buying from us, you are buying worry-free services.
-                                    "Less worries, it means a better quality life".
+                                    "Less worries, means better quality life".
                                     </p>
 								</div>
 							</div>
@@ -347,7 +377,7 @@ Start Call To Action
             <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
-						<i class="tf-ion-laptop"></i>
+                        <img src="images/team/client-1.jpg">
 					</div>
 					<h3 style="background-color: whitesmoke; opacity: 0.8; border: 1px solid black; color: black; font-weight: bold;">Demolitions works (Interior & Exterior)</h3>
 					<p style="background-color: whitesmoke; opacity: 0.8; border: 1px solid black; color: black; font-weight: bold; "><!--There comes a time, when old construction has to be removed in order to build a new fresh one. In order to do this,--> Our team has profesionals who enjoy breaking things. With their corresponding machines and tools for each specific job they can demolish and cut every part of old buildings while enjoying it.
