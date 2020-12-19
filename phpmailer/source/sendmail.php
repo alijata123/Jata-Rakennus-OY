@@ -21,8 +21,8 @@ $mail->Host     = "smtp.zoho.eu"; // SMTP server
 $mail->Username = "youraccount"; // "The account"
 $mail->Password = "yourpassword"; // "The password"
 $mail->Port = 587; // "The port".
-$mail->From = 'info@constman.fi'; 
-$mail->addAddress('info@constman.fi', 'Name of your dest'); 
+$mail->From = 'info@jata-rakennus.fi'; 
+$mail->addAddress('info@jata-rakennus.fi', 'Name of your dest'); 
 $mail->isHTML(true); // Set email format to HTML
 
 $mail->Subject = 'Here is the subject';
