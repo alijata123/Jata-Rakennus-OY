@@ -15,12 +15,12 @@ $mail = new PHPMailer();
 $mail->IsSMTP();  // Telling the class to use SMTP  
 
 $mail->SMTPAuth = true;
-$mail->SMTPSecure = "tls"; // or ssl: check your SMTP server configuration
-$mail->Host     = "smtp.zoho.eu"; // SMTP server
+$mail->SMTPSecure = "ssl"; // or tls: check your SMTP server configuration
+$mail->Host     = "smtppro.zoho.eu"; // SMTP server
 
 $mail->Username = "youraccount"; // "The account"
 $mail->Password = "yourpassword"; // "The password"
-$mail->Port = 587; // "The port".
+$mail->Port = 465; // "The port".
 $mail->From = 'info@jata-rakennus.fi'; 
 $mail->addAddress('info@jata-rakennus.fi', 'Name of your dest'); 
 $mail->isHTML(true); // Set email format to HTML

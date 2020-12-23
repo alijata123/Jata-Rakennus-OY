@@ -90,6 +90,15 @@
         .tf-ion-social-linkedin:before {
             color:aqua;
         }
+        
+        
+        
+        /* latest works carousel images heights*/
+        .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+            display: block;
+            max-width: 100%;
+            height: 500px;
+        }
     </style>
 
 <body id="body" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -194,7 +203,7 @@ Welcome Slider
                 <li><a data-scroll href="#blog"><i class="tf-ion-ios-paper"></i> Latest Posts</a></li>
                 <li><a data-scroll href="#contact-us"><i class="tf-ion-android-contacts"></i> Contact</a></li>
                <!--<li><a data-scroll href="https://constman.shop/"><i class="tf-ion-man"></i> Rent Workers</a></li> -->
-                <li><a data-scroll href="https://constman.shop/"><i class="tf-tools-2"></i> Shop Online</a></li>
+                <li><a data-scroll href="index.html"><i class="tf-tools-2"></i> Shop Online</a></li>
             </ul>
         </nav>
         <!-- /main nav -->
@@ -383,7 +392,7 @@ Start Call To Action
 
 <section id="services" class="bg-one section">
 	<div class="container">
-		<div class="row">
+		<div class="row" >
 			
 	
 			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
@@ -711,7 +720,7 @@ Start Call To Action
 					<div class="post-block">
 						<div id="gallery-post" class="media-wrapper">
 							<div class="item">
-								<img src="images/gif/20200428-141858-1.gif" width="1200px" height="750px" alt="blog post" class="img-responsive">
+								<img src="images/gif/20200428-141858-1.gif" width="1200px" alt="blog post" class="img-responsive">
 							</div>
 							<div class="item">
 								<img src="images/gif/20200428-141858-1.gif" width="1200px" alt="blog post" class="img-responsive">
@@ -775,7 +784,7 @@ Start Call To Action
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms" style="color: aliceblue;">
 				<h3>Contact Details</h3>
 				<p>Jata Rakennus OY / <b>3177738-1</b></p>
-				<div class="contact-details">
+				<div class="contact-details" >
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
 						<span>Vartiokuja 1F, 01280, Vantaa, Finland</span>
@@ -792,7 +801,9 @@ Start Call To Action
 					</div>
 				</div>
 			</div>
-			<!-- / End Contact Details -->
+            
+            
+			<!-- / End Contact Details-->
 				
 			<!-- Contact Form -->
 			<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -819,9 +830,10 @@ Start Call To Action
 						Thank you. The Mailman is on His Way :)
 					</div>
 					
-					<div id="mail-fail" class="success">
-                        Email has been sent successfully.
-						<!--Sorry, don't know what happened. Try later :(-->
+					<div id="mail-fail" class="Error">
+                        <!-- Email has not been sent! -->
+						Sorry, don't know what happened. Try later :( .
+
 					</div>
 					
 					<div id="cf-submit">
@@ -830,8 +842,7 @@ Start Call To Action
 					
 				</form>
 			</div>
-			<!-- ./End Contact Form -->
-		
+
 		</div> <!-- end row -->
 	</div> <!-- end container -->
     
@@ -845,7 +856,8 @@ Start Call To Action
             <col-md-12>
                 <h1>For painting services, we would like to redirect you to the subbranch of our company.
                     "Maalarit.com" is part of our company services, which its main goal is to connect professional painting workers with potential private customers. Its use, could also be for work references and good relation establishment between other companies and our professionals.</h1>
-                <h1 style="font-family: 'Kaushan Script', cursive; font-size: 30px; padding-top: 10px; padding-bottom: 13px; color: black; background-color: #4e595f;"><a href="https://maalarit.com/">www.maalarit.com</a></h1>
+                <h1 style="font-family: 'Kaushan Script', cursive; font-size: 30px; padding-top: 10px; padding-bottom: 13px; color: black; background-color: #4e595f;">
+                    <a href="https://maalarit.com/">www.maalarit.com</a></h1>
                 <br>
                 <p style="border-style: groove; color:#4e595f; font-weight: bold;" >A subbranch of Jata-Rakennus-OY.</p>
             </col-md-12>
