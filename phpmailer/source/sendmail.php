@@ -32,10 +32,10 @@ $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 //$mail->WordWrap = 100; // "The lenght of the text."  
 
 if(!$mail->Send()) {
+  print ("Success: message has been sent\n");
+} else {
   print ("Error: message not sent\n");
   print ($mail->ErrorInfo."\n");
-} else {
-  print ("Success: message has been sent\n");
 }
 }
 catch (Exception $e) {
